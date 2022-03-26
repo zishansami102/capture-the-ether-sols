@@ -2,7 +2,7 @@
 
 ### WIP
 * It is work in progress repository.
-* Solution write ups will be available soon
+* Solution write-ups[(like this one)](https://www.trufflesuite.com/ganache) will be available soon
 
 ### Steps to setup in local
 
