@@ -2,7 +2,7 @@
 
 ### WIP
 * It is work in progress repository.
-* Solution write-ups[(like this one)](https://www.trufflesuite.com/ganache) will be available soon
+* Solution write-ups[(like this one)](https://zsami.notion.site/Mapping-170e54ef2e9f4feabdf7df930adb2a97) will be available soon
 
 ### Steps to setup in local
 
