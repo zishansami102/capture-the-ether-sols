@@ -31,7 +31,7 @@ module.exports = {
   },
   networks: {
     ropsten: {
-      url: `https://ropsten.infura.io/v3/${ALCHEMY_API_KEY}`,
+      url: `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
       accounts: [`${WALLET_PRIVATE_KEY}`, `${WALLET2}`]
     }
   },

