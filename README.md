@@ -21,5 +21,5 @@ npx hardhat compile
 
 * Update challenge address in the test file and run challenge test to pass the challenges on Ropsten Network
 ```
-npx hardhat test/TokenBank.js --network ropsten
+npx hardhat test test/TokenBank.js --network ropsten
 ```
