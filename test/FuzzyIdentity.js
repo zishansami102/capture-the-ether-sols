@@ -31,16 +31,12 @@ it("FuzzyIdentity", async function () {
   while (true) {
     const saltHex = salt.toString(16).padStart(64, "0");
     const concatString = prefix.concat(saltHex).concat(suffix);
-
     const hashed = web3.utils.sha3(concatString);
-
     // console.log(`salt: ${salt}, hashed: ${hashed}`);
-
     if (hashed.substr(26).includes("badc0de")) {
       console.log(`salt: ${salt}, hashed: ${hashed}`);
       break;
     }
-
     salt++;
   }
   const end = Math.floor(Date.now() / 1000);
